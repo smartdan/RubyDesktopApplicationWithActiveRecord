@@ -1,0 +1,75 @@
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateContents (2)
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateContents (2)
+Migrating to CreateActivities (3)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE TABLE "activities" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "page" varchar(255), "timeline" date, "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('3')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateContents (2)
+Migrating to CreateActivities (3)
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateContents (2)
+Migrating to CreateActivities (3)
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateContents (2)
+Migrating to CreateActivities (3)
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateContents (2)
+Migrating to CreateActivities (3)
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateActivities (3)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (3.1ms)[0m   [0mDROP TABLE "activities"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '3'[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateContents (2)
+Migrating to CreateActivities (3)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TABLE "activities" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "page" varchar(255), "timeline" date, "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('3')[0m
